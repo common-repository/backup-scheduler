@@ -1,0 +1,605 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-10-19T20:30:14+00:00\n"
+"Last-Translator: Mik013 <mik013@yahoo.com>\n"
+"Last-Translator: Mik013 <n0lim.it>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: Czech Republic\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "This plugin enables scheduled backups of important parts of your website!"
+msgstr "Tento plugin umožňuje pravidelné zálohování důležitých součástí vašich webových stránek!"
+
+msgid "Just configure the schedule and the content to be save and enjoy: a background process will be triggered by the person who visits your website!"
+msgstr "Stačí nastavit časový harmonogram a obsah určený k zálohování a je to: proces se spustí na pozadí tím, kdo navštíví vaše webové stránky!&quot;"
+
+msgid "Sorry, but you should install/activate %s on your website. Otherwise, this plugin will not work properly!"
+msgstr "Bohužel, ale měli byste instalovat/aktivovat %s na vašich webových stránkách. V opačném případě bude tento plugin nebude fungovat správně!"
+
+msgid "How often do you want to backup your website?"
+msgstr "Jak často chcete zálohovat vaše webové stránky?"
+
+msgid "Frequency (in days):"
+msgstr "Četnost (ve dnech):"
+
+msgid "Time of the backups:"
+msgstr "Čas záloh:"
+
+msgid "Please note that 0 means midnight, 1 means 1am, 13 means 1pm, etc. The backup will occur at that time (server time) so make sure that your website is not too overloaded at that time."
+msgstr "Prosím, vezměte na vědomí, že 0 znamená půlnoc, 1 znamená 1AM, 13 znamená 1PM, atd. K záloha proběhne v nastaveném čase (čase serveru), ujistěte se, že vaše webové stránky nejsou tou dobou příliš přetížené."
+
+msgid "Please also note that the backup won't be end exactly at that time. The backup process could take up to 6h especially if you do not have a lot of traffic on your website and/or if the backup is quite huge."
+msgstr "Upozorňujeme také, že záloha nebude končit v nějakou konkrétní dobu. Proces zálohování může trvat až 6h zvláště pokud mají stránky nízkou návštěvu a/nebo v případě, že záloha je poměrně velká."
+
+msgid "Keep the backup files for (in days):"
+msgstr "Uchovat záložní soubory (ve dnech):"
+
+msgid "If you want to be notify when the backup process is finished, please enter your email:"
+msgstr "Pokud chcete být upozorní, až bude proces zálohování dokončen, zadejte svůj e-mail:"
+
+msgid "Customize the name of the files?"
+msgstr "Upravit názvy souborů?"
+
+msgid "Add this string to the name of the files:"
+msgstr "Přidat tento řetězec do jména souborů:"
+
+msgid "The name of the files will be %s."
+msgstr "Názvy souborů budou %s."
+
+msgid "Everything OK!"
+msgstr "Vše je v pořádku!"
+
+msgid "%s is the string of the present option. You may set this option to %s."
+msgstr "%s je aktuální řetězec. Můžete nastavit tuto možnost %s."
+
+msgid "%s is a random string for security reasons."
+msgstr "%s je náhodný řetězec z bezpečnostních důvodů."
+
+msgid "%s is the extension (i.e. %s)."
+msgstr "%s je přípona (např. %s)."
+
+msgid "What do you want to save?"
+msgstr "Co chcete uložit?"
+
+msgid "All directories (the full Wordpress installation):"
+msgstr "Všechny adresáře (plná instalace Wordpress):"
+
+msgid "(i.e. %s)"
+msgstr "(např. %s)."
+
+msgid "Check this option if you want to save everything. Be careful, because the backup could be quite huge!"
+msgstr "Vyberte tuto volbu, pokud chcete uložit všechno. Buďte opatrní, protože záloha by mohla být obrovská!"
+
+msgid "The plugins directory:"
+msgstr "Adresář s pluginy:"
+
+msgid "Check this option if you want to save all plugins that you have installed and that you use on this website."
+msgstr "Vyberte tuto volbu, pokud chcete uložit všechny instalované pluginy, a které používáte na těchto webových stránkách."
+
+msgid "The themes directory:"
+msgstr "Adresář se šablonami:"
+
+msgid "Check this option if you want to save all themes that you have installed and that you use on this website."
+msgstr "Vyberte tuto volbu, pokud chcete uložit všechny šablony, které jste nainstalovali a které používáte na těchto webových stránkách."
+
+msgid "The upload directory for this blog:"
+msgstr "Adresář upload tohoto blogu:"
+
+msgid "(i.e. %s and %s)"
+msgstr "(např. %s a %s)."
+
+msgid "Check this option if you want to save the images, the files, etc. that you have uploaded on your website to create your articles/posts/pages."
+msgstr "Vyberte tuto volbu, pokud chcete uložit obrázky, soubory atd, které jste nahráli na své webové stránky při vytváření svých článků/příspěvků/stránek."
+
+msgid "All upload directories (for this site and the sub-blogs):"
+msgstr "Všechny upload adresáře (pro tyto webové stránky a sub-blogy):"
+
+msgid "Check this option if you want to save the images, the files, etc. that people have uploaded on their websites to create articles/posts/pages."
+msgstr "Vyberte tuto volbu, pokud chcete uložit obrázky, soubory atd které nahráli lidé na jejich webových stránkách při vytváření svých článků/příspěvků/stránek."
+
+msgid "The upload directory for the main site:"
+msgstr "Adresář pro upload pro hlavní stránku:"
+
+msgid "Check this option if you want to save the images, the files, etc. that you have uploaded on your main website to create your articles/posts/pages."
+msgstr "Vyberte tuto volbu, pokud chcete uložit obrázky, soubory atd, které jste nahráli na své hlavní webové stránky při vytváření vašich článků/příspěvků/stránek."
+
+msgid "The upload directory:"
+msgstr "Adresář pro upload:"
+
+msgid "The SQL database:"
+msgstr "Databáze SQL:"
+
+msgid "Check this option if you want to save the text of your posts, your configurations, etc. for this blog"
+msgstr "Vyberte tuto volbu, pokud chcete uložit text vašich příspěvků, konfigurace atd pro tento blog"
+
+msgid "All SQL databases:"
+msgstr "Všechny databáze SQL:"
+
+msgid "Check this option if you want to save all texts of posts, configurations, etc. for all blogs in this website"
+msgstr "Vyberte tuto volbu, pokud chcete uložit všechny příspěvky, konfigurace atd pro všechny blogy na webových stránkách"
+
+msgid "Only your SQL database:"
+msgstr "Pouze vaši SQL databázi:"
+
+msgid "Check this option if you want to save the text of your posts, your configurations, etc. for the main website"
+msgstr "Vyberte tuto volbu, pokud chcete uložit konfiguraci a text vašich příspěvků, atd pro hlavní webovou stránku"
+
+msgid "Save the SQL content of the sub-sites in different files:"
+msgstr "Uložit obsah SQL z dílčích stránek do samostatných souborů:"
+
+msgid "Check this option if you want to save the text of your posts, your configurations, etc."
+msgstr "Vyberte tuto volbu, pokud chcete uložit text vašich příspěvků, konfigurace atd."
+
+msgid "The maximum zip file size (in MB, namely the chunck size):"
+msgstr "Maximální velikost zip souboru (v MB, případně jednotlivých částí):"
+
+msgid "Please note that the zip file will be split into multiple files to comply with the maximum file size you have indicated"
+msgstr "Upozorňujeme, že zip soubor bude rozdělen do více souborů v souladu s maximální velikostí souboru, kterou jste nastavili"
+
+msgid "Exclude these folders:"
+msgstr "Vynechat tyto složky:"
+
+msgid "Please enter one name of folder to be excluded per line"
+msgstr "Zadejte jméno složky, která má být vynechána, jedno na řádek"
+
+msgid "By default, the line should exactely match the folder name or the folder path to exclude said folder (for instance %s or %s, to exclude the content folder)"
+msgstr "Ve výchozím nastavení by záznam měl přesně odpovídat názvu složky nebo celé cestě ke složce (např %s nebo %s, pro vynechání obsahu složky)"
+
+msgid "If the line begins with %s, the line will be consider as a regexp (for instance %s, to exclude the content folder)"
+msgstr "Pokud řádek začíná %s, bude záznam považován za regulární výraz (např %s, pro vynechání obsahu složky)"
+
+msgid "For now, the following folder are exluded (please refresh the page if you just upfdate the options to see the correct list):"
+msgstr "Pro tuto chvíli, následující složky jsou vynechány (pokud jste právě upravili tuto volbu, prosím aktualizujte stránku, aby jste viděli správný seznam):"
+
+msgid "Do you want that the backup is sent by email?"
+msgstr "Chcete zálohu odeslat prostřednictvím e-mailu?"
+
+msgid "Send the backup files by email:"
+msgstr "Odeslat zálohované soubory prostřednictvím e-mailu:"
+
+msgid "If so, please enter your email:"
+msgstr "Pokud ano, zadejte svůj e-mail:"
+
+msgid "Do you want to add a suffix to sent files:"
+msgstr "Chcete-li přidat příponu k odesílaným souborům:"
+
+msgid "This option allows going round the blocking feature of some mail provider that block the mails with zip attachments (like GMail)."
+msgstr "Tato volba umožňuje obejít funkci blokování některých poskytovatelů pošty, kteří blokují e-maily s přílohami zip (jako například Gmail)."
+
+msgid "You do not need to fill this field if no mail is to be sent."
+msgstr "Toto pole nemusíte vyplňovat, pokud žádná pošta nemá být odeslána."
+
+msgid "Do you want that the backup is stored on a FTP?"
+msgstr "Přejete si zálohu uložit na FTP?"
+
+msgid "Save the backup files on a FTP?"
+msgstr "Uložit záložní soubory na FTP?"
+
+msgid "FTP host:"
+msgstr "Jméno FTP serveru:"
+
+msgid "Should be at the form %s or %s"
+msgstr "Mělo by být ve formě %s nebo %s"
+
+msgid "If %s is omitted then it is automatically added when connecting to your FTP. This is useful if you get an 404 error submitting these parameters with %s."
+msgstr "Je-li %s vynecháno, pak je automaticky přidáno při připojování k vašemu FTP. To je užitečné, pokud dostáváte chybu 404 při odesílání těchto parametrů s %s."
+
+msgid "FTP port:"
+msgstr "FTP port:"
+
+msgid "By default the port is %s"
+msgstr "Ve výchozím nastavení je port %s"
+
+msgid "Your FTP login:"
+msgstr "Váš FTP login:"
+
+msgid "Your FTP pass:"
+msgstr "Váše FTP heslo:"
+
+msgid "Click on that button %s to test if the above information is correct"
+msgstr "Klikněte na toto tlačítko %s pro kontrolu, výše uvedených údajů"
+
+msgid "Test"
+msgstr "Test"
+
+msgid "Create sub-folder with date in your FTP repository for all backup files:"
+msgstr "Pro každou zálohu na FTP úložišti vytvořit podsložku s datem:"
+
+msgid "Add a prefix to the created folder:"
+msgstr "Přidat předponu k názvu vytvářené složky:"
+
+msgid "Your PHP installation does not support FTP features, thus this option has been disabled! Sorry..."
+msgstr "Vaše instalace PHP nepodporuje funkce FTP, tato možnost tak byla zakázána! Je nám líto..."
+
+msgid "Advanced - Memory and time management"
+msgstr "Rozšířené - řízení paměti a času"
+
+msgid "What is the maximum size of allocated memory (in MB):"
+msgstr "Jaká je maximální velikost přidělené paměti (v MB):"
+
+msgid "The files greater than this limit won't be included in the zip file!"
+msgstr "Soubory větší než tento limit, nebudou zahrnuty do zip souboru!"
+
+msgid "On some Wordpress installation, you may have memory issues. Thus, try to reduce this number if you face such error."
+msgstr "Na některých instalacích Wordpress, můžete mít problémy s pamětí. Proto se snažte snížit toto číslo, pokud budete čelit nějakým chybám."
+
+msgid "What is the maximum time for the php scripts execution (in seconds):"
+msgstr "Jaká je maximální doba pro provedení PHP skriptů (v sekundách):"
+
+msgid "Even if you do not have time restriction, it is recommended to set this value to 15sec in order to avoid any killing of the php scripts by your web hoster."
+msgstr "I když nemáte časové omezení, se doporučujeme nastavit tuto hodnotu na 15sec, aby se předešlo jakémukoli ukončení PHP skriptu vaším poskytovatelem webového hostingu."
+
+msgid "Here is the backup files. You can force a new backup or download previous backup files."
+msgstr "Zde jsou záložní soubory. Můžete vytvořit novou zálohu nebo stáhnout předchozí záložní soubory."
+
+msgid "Please note that the current GMT time of the server is %s. If it is not correct, please configure the Wordpress installation correctly."
+msgstr "Upozorňujeme, že aktuální čas GMT serveru je %s. Pokud to nesouhlasí, prosíme, zkontrolujte správnost konfigurace Wordpress instalace."
+
+msgid "An automatic backup will be launched in %s days and %s hours."
+msgstr "Automatická záloha bude spuštěna v %s dní %s hodin."
+
+msgid "The backup process has started %s hours ago but has not finished yet."
+msgstr "Proces zálohování začal před %s hodinami, ale zatím neskončil."
+
+msgid "Force a new backup (with Mail/FTP)"
+msgstr "Provést novou zálohu (na Mail/FTP)"
+
+msgid "Force a new backup (without any external storage or sending)"
+msgstr "Provést novou zálohu (bez jakéhokoli vnějšího odeslání či skladování)"
+
+msgid "Backups"
+msgstr "Zálohy"
+
+msgid "Parameters"
+msgstr "Nastavení"
+
+msgid "There is two different ways to create a backup:"
+msgstr "K dispozici jsou dva různé způsoby, jak vytvořit zálohu:"
+
+msgid "an automatic process (namely background process):"
+msgstr "automatický proces (jmenovitě proces na pozadí):"
+
+msgid "Every time a user visits a page of the frontside of your website, a small portion of the backup process is performed;"
+msgstr "Pokaždé, když uživatel navštíví nějakou stránku vaší webové prezentace, je provedena část zálohovacího procesu;"
+
+msgid "Note that if you have very few visits, a complete backup may be quite long."
+msgstr "Pamatujte, že pokud máte velmi nízkou návštěvnost, kompletní zálohování může být poměrně dlouhé."
+
+msgid "a forced process:"
+msgstr "spouštěný proces"
+
+msgid "The button that triggers this forced process may be found in the Backup tab;"
+msgstr "Tlačítko, které spouští tento manuální proces lze nalézt v záložce Zálohy;"
+
+msgid "You have to stay on that page for processing all attachments: if you go on another page (or if you reload the page), the process will be stopped."
+msgstr "Zůstaňte na této straně do zpracování všech příloh: pokud přejdete na jinou stránku (nebo v případě znovunačtení stránky), proces se zastaví."
+
+msgid "How to backup the site?"
+msgstr "Jak zálohovat stránky?"
+
+msgid "When forcing a backup process, the plugin indicates that another process is running."
+msgstr "Spouštíte-li proces zálohování, plugin oznámí, pokud již běží jiný proces."
+
+msgid "99% of the time, it means that the memory limit and/or the chunck size have been increased and that you exceed the maximum memory limit authorized by your server: therefore, the PHP process related to the backup is killed."
+msgstr "v 99% případů to znamená, že byl překročen limit paměti a/nebo velikost bloku a že jste překročili maximální limit paměti povolené pro server: tedy, proces PHP vztahující se k záloze je ukončen."
+
+msgid "Most of the time, this chunk size and memory limit do not have to be higher than 15Mo."
+msgstr "Většinou by velikost bloků a limit paměti neměli být vyšší než 15MB."
+
+msgid "DO NOT contact me before trying to reduce the chunk size and the memory limit: 250Mo is, for instance, often not a good idea..."
+msgstr "NEKONTAKTUJTE MNE předtím, než se pokusíte snížit velikost bloků a limit paměti: například 250MB většinou není dobrý nápad..."
+
+msgid "The backup process cannot end"
+msgstr "Proces zálohování nemůže být dokončen"
+
+msgid "This plugin create a plurality of split zip."
+msgstr "Tento plugin může vytvářet větší množství vícedílných zip souborů."
+
+msgid "Indeed, a PHP process is not able, most of the time, to create, manipulate and handle files that exceed a certain amount of data."
+msgstr "Většinou proces PHP není schopen vytvářet, manipulovat a pracovat se soubory, které přesahují určité množství dat."
+
+msgid "In order to be able to backup websites of a size of a couple gigabytes, the plugin create different files."
+msgstr "Aby bylo možné zálohovat webové stránky o velikosti i několik gigabajtů, plugin vytváří vícero menších souborů."
+
+msgid "Why the plugin creates multi-part zip?"
+msgstr "Proč plugin vytváří vícedílné ZIPy?"
+
+msgid "To open the backups, you will have to execute the following steps:"
+msgstr "Pro obnovení zálohy, budete muset provést následující kroky:"
+
+msgid "Save all zip files (i.e. *.zip, *.z01, *.z02, etc.) in a single folder on your hard disk."
+msgstr "Uložit všechny zip soubory (tj. *.zip, *.z01, *.z02, atd.) do jediné složky na pevném disku."
+
+msgid "Unzip these files by using a software that support multi-part zip files (it is often indicated in the readme):"
+msgstr "Rozbalit tyto soubory pomocí softwaru, který podporuje vícedílné zip soubory (což je často uvedeno v readme):"
+
+msgid "Other software may works ... do not hesitate to inform me!"
+msgstr "Může fungovat i další software ... neváhejte mě informovat!"
+
+msgid "How to open the split zip files?"
+msgstr "Jak otevřít vícedílné (rozdělené) zip soubory?"
+
+msgid "No this plugin does not propose a 'one-click restoration'."
+msgstr "Ne, tento plugin nenabízí &quot;obnovu na jedno kliknutí&quot;."
+
+msgid "Indeed, how a plugin may restore an installation of Wordpress if Wordpress does not exists (it has to be restored) to run the plugin? I believe I made my point ..."
+msgstr "Ve skutečnosti, jak by plugin mohl obnovit instalaci Wordpress, pokud by Wordpress ještě ani neexistoval (má být obnoven) spuštěním zásuvného modulu? Věřím, že je to zřejmé ..."
+
+msgid "Keep in mind that the restoration of a website may be a technical and long process (it depends on what you want to restore). For instance, you need to be familiar with manipulating FTP for accessing your website."
+msgstr "Mějte na paměti, že obnovení webové stránky může být technický a zdlouhavý proces (záleží na tom, co chcete obnovit). Například, budete potřebovat, být schopni pracovat s FTP pro přístup k vašim webovým stránkám."
+
+msgid "One click restoration?"
+msgstr "Obnova na jedno kliknutí?"
+
+msgid "In the zip, you will find some sql files."
+msgstr "V zip souboru, najdete nějaké sql soubory."
+
+msgid "You could either:"
+msgstr "Můžete buď:"
+
+msgid "Import each file in your new database (for instance, thanks to %s), in the alphabetical order of the files."
+msgstr "Importovat jednotlivě každý soubor do nové databáze (například pomocí %s), v abecedním pořadí souborů."
+
+msgid "Concatenate the sql files in one big file and import this latter file in your new database (for instance, thanks to %s)."
+msgstr "Spojit (concatenate ) sql soubory do jednoho velkého souboru a importovat tento soubor do nové databáze (například pomocí %s)."
+
+msgid "Please note that if you choose to save the SQL content of the sub-sites in different files, you will also have some %s files (with %s the index of the blog). You can separately handle these files."
+msgstr "Upozorňujeme, že pokud se rozhodnete uložit obsah SQL z dílčích lokalit do různých souborů, budete mít také nějaké %s soubory (s %s index blogu). Můžete samostatně zpracovávat tyto soubory."
+
+msgid "How to restore the database?"
+msgstr "Jak obnovit databázi?"
+
+msgid "If you have backuped the entire website, the restoration is quite simple: you just have to copy the files in the zip files into your webserver."
+msgstr "Pokud jste zálohovalli celý web, obnova je velmi jednoduchá: stačí zkopírovat soubory v zip archivu na svůj webový server."
+
+msgid "If you have backuped only some folders, you will have to execute the following steps:"
+msgstr "Pokud jste zálohovány pouze některé složky, budete muset provést následující kroky:"
+
+msgid "Install a fresh version of Wordpress on your webserver."
+msgstr "Nainstalovat na váš webový server novou verzi Wordpressu."
+
+msgid "Replace the folders (i.e. %s,  %s, and/or %s) of the root of your webserver by the extracted folders."
+msgstr "Nahradit obsah složek (např . %s, %s, a/nebo %s) z kořenového adresáře webového serveru rozbalenými soubory."
+
+msgid "Replace the %s (at the root of your webserver) with the extracted one."
+msgstr "Nahradit %s (v kořenovém adresáři vašeho webového serveru) jeho ze zálohy obnovenou a rozbalenou verzí."
+
+msgid "How to restore the other files?"
+msgstr "Jak obnovit ostatní soubory?"
+
+msgid "The backup files are stored in %s."
+msgstr "Záložní soubory jsou uloženy v %s."
+
+msgid "In addition, the plugin may store the files on a distant FTP."
+msgstr "Navíc, plugin může ukládat soubory na vzdáleném FTP."
+
+msgid "Finally, you can configure the plugin to send the backup files by mail but be informed that there is some difficulties with most of mail provider (size issue, extension rejection, etc.)."
+msgstr "Dokonce, můžete nakonfigurovat plugin pro odesílání záložních souborů e-mailem, ale mějte na paměti, že s většinou poskytovatelů elektronické schránky, můžete čelit různým problémům (ohledně velikosti příloh, přípon, atd.)."
+
+msgid "Where the backup are stored?"
+msgstr "Kde je záloha uložena?"
+
+msgid "How To"
+msgstr "Jak na to"
+
+msgid "Manage translations"
+msgstr "Správa překladů"
+
+msgid "Give feedback"
+msgstr "Zpětná vazba"
+
+msgid "Other plugins"
+msgstr "Další pluginy"
+
+msgid "Date of the backup"
+msgstr "Datum zálohy"
+
+msgid "Backup files"
+msgstr "Záložní soubory"
+
+msgid "FTP transfer OK"
+msgstr "FTP přenos OK"
+
+msgid "FTP transfer KO: %s"
+msgstr "FTP přenos KO: %s"
+
+msgid "FTP transfer reset"
+msgstr "resetování FTP přenosu"
+
+msgid "Part %s"
+msgstr "Část %s"
+
+msgid "Backup finished on %s at %s"
+msgstr "Záloha skončila v %s v %s"
+
+msgid "The total size of the files is %s"
+msgstr "Celková velikost souborů je %s"
+
+msgid "These files will be deleted in %s days"
+msgstr "Tyto soubory budou odstraněny za %s dní"
+
+msgid "Delete these backup files"
+msgstr "Odstranit tyto záložní soubory"
+
+msgid "The process is still in progress for this backup (begun %s at %s)."
+msgstr "Proces této zálohy stále probíhá (začátek %s v %s)."
+
+msgid "The SQL extraction is in progress (%s entries extracted)."
+msgstr "Probíhá příprava SQL (%s záznamů extrahováno)."
+
+msgid "The ZIP creation is in progress (%s files has been added in %s zip files and the current size of the zip files is %s)."
+msgstr "Probíhá příprava ZIP (%s souborů bylo přidáno do %s zip souborů, aktuální velikost zip souborů je %s)."
+
+msgid "The FTP sending is in progress (%s files has been stored in the FTP)."
+msgstr "Probíhá FTP odesílání (%s souborů bylo uloženo na FTP)."
+
+msgid "The MAIL sending is in progress (%s files has been sent)."
+msgstr "Probíhá odesílání E-MAILů (%s souborů bylo odesláno)."
+
+msgid "Cancel this process"
+msgstr "Přerušit tento proces"
+
+msgid "Please wait..."
+msgstr "Prosím čekejte ..."
+
+msgid "(For now, there is no backup files... You should wait or force a backup (see below) )"
+msgstr "(Prozatím neexistuje žádná záloha ... Měli byste počkat nebo spustit zálohování (viz níže))"
+
+msgid "Please wait, a backup is in progress for %s seconds! Wait until %s seconds for an automatic restart."
+msgstr "Prosím vyčkejte, zálohování probíhá %s sekund! Počkejte %s sekund pro automatické restartování."
+
+msgid "This error message may also be generated if the chunk size is too big: try first to set the chunk size to 1Mo in order to avoid any memory saturation of your server and then increase it slowly..."
+msgstr "Tato chybová zpráva může být generována v případě, že velikost bloků je příliš velká: pokuste se nejprve nastavit velikost bloku na 1MB, aby se předešlo jakémukoli přeplnění paměti serveru a poté ji zkuste pomalu zvyšovat..."
+
+msgid "(SQL extraction - ending)"
+msgstr "(SQL extrakce - ukončení)"
+
+msgid "(SQL extraction)"
+msgstr "(SQL extrakce)"
+
+msgid "(SQL extraction - nothing to be done)"
+msgstr "(SQL extrakce - není co zpracovat)"
+
+msgid "(ZIP creation)"
+msgstr "(ZIP vytváření)"
+
+msgid "(FTP sending)"
+msgstr "(FTP odesílání)"
+
+msgid "(FTP sending - ending)"
+msgstr "(FTP odesílání - ukončení)"
+
+msgid "(FTP sending - nothing to be done)"
+msgstr "(FTP odesílání - není co zpracovat)"
+
+msgid "Backup of %s on %s (%s)"
+msgstr "Záloha webu %s z %s (%s)"
+
+msgid "(MAIL sending)"
+msgstr "(E-MAIL odesílání)"
+
+msgid "Your Wordpress installation cannot send emails (with heavy attachments)!"
+msgstr "Vaše instalace Wordpress nemůže odesílat e-maily (s velkými přílohami)!"
+
+msgid "(MAIL sending - ending)"
+msgstr "(E-MAIL odesílání - ukončení)"
+
+msgid "(MAIL sending - nothing to be done)"
+msgstr "(E-MAIL odesílání - není co zpracovat)"
+
+msgid "(END - ending)"
+msgstr "(KONEC - ukončení)"
+
+msgid "An unknown error occured!"
+msgstr "Došlo k neznámé chybě!"
+
+msgid "A new backup has been generated!"
+msgstr "Byla vytvořena nová záloha!"
+
+msgid "Dear sirs,"
+msgstr "Vážení,"
+
+msgid "Here is attached the %s on %s backup files for today"
+msgstr "Zde je připojena dnešní %s záložních souborů %s"
+
+msgid "Best regards,"
+msgstr "S pozdravem,"
+
+msgid "Please find hereafter a summary of the backup process."
+msgstr "Zde naleznete shrnutí procesu zálohování."
+
+msgid "Global synthesis"
+msgstr "Celkové shrnutí"
+
+msgid "The backup process has started on %s and have lasted %s minutes and %s seconds"
+msgstr "Proces zálohování započal %s a trval %s minut %s sekund"
+
+msgid "SQL synthesis"
+msgstr "SQL shrnutí"
+
+msgid "The SQL extraction has started on %s and have lasted %s minutes and %s seconds"
+msgstr "Extrakce SQL začala %s a trvala %s minut %s sekund"
+
+msgid "%s entries have been extracted and have been stored in %s files."
+msgstr "%s položek bylo extrahováno a byly uloženy do %s souborů."
+
+msgid "%s created on %s"
+msgstr "%s byl vytvořen %s"
+
+msgid "ZIP synthesis"
+msgstr "ZIP shrnutí"
+
+msgid "The ZIP creation phase has started on %s and have lasted %s minutes and %s seconds"
+msgstr "Fáze vytvoření ZIP začala %s a trvala %s minut a %s sekund"
+
+msgid "%s files have been stored into %s split files (zip, z01, z02, etc.)."
+msgstr "%s souborů bylo uloženo do %s dělených souborů (zip, z01, z02, atd.)."
+
+msgid "Please note that %s files have been excluded from the backup process because their sizes exceed the chunk size (i.e. %s Mo)."
+msgstr "Upozorňujeme, že %s souborů byly z procesu zálohování vyloučeno, protože jejich velikosti byla větší než max definovaná velikost bloků (tj. %s MB)."
+
+msgid "%s (size %s)"
+msgstr "%s (velikost %s)"
+
+msgid "These zip files are accessible for %s days at the following path:"
+msgstr "Tyto zip soubory, budou přístupné následujících %s dní na uvedené cestě:"
+
+msgid "FTP synthesis"
+msgstr "FTP shrnutí"
+
+msgid "The %s zip files have been stored on the specified FTP: %s"
+msgstr "%s zip souborů bylo uloženo na zadané FTP: %s"
+
+msgid "%s stored on %s"
+msgstr "%s uloženo %s"
+
+msgid "ERROR: %s has not been stored. The error message was: %s"
+msgstr "CHYBA: %s nebyl uložen. Chybová zpráva: %s"
+
+msgid "Backup of %s on %s"
+msgstr "Záloha webu %s z %s"
+
+msgid "No host has been defined"
+msgstr "Nebylo definováno jméno serveru"
+
+msgid "Your PHP installation does not support SSL features... Thus, please use a standard FTP and not a FTPS!"
+msgstr "Vaše instalace PHP nepodporuje SSL funkce ... Proto, použijte standardní FTP a ne FTPS!"
+
+msgid "The host %s cannot be resolved!"
+msgstr "Server %s nebyl nalezen!"
+
+msgid "The folder %s cannot be created on the FTP repository!"
+msgstr "Složku %s se nepodařilo na FTP úložišti vytvořit!"
+
+msgid "The file %s cannot be transfered to the FTP repository %s! The ftp_put function returns: %s"
+msgstr "Soubor %s nemůže být přenesen na FTP úložiště %s! Funkce ftp_put vrací: %s"
+
+msgid "The file %s cannot be transfered to the FTP repository and PASV mode cannot be entered : %s"
+msgstr "Soubor %s nemůže být přenesen na FTP úložiště, režim PASV nemůže být použit : %s"
+
+msgid "The specified folder %s does not exists. Please create it so that the transfer may start!"
+msgstr "Uvedená složka %s neexistuje. Prosím vytvořte ji, aby přenos mohl začít!"
+
+msgid "The login/password does not seems valid!"
+msgstr "Uvedený login / heslo se nezdají být platné!"
+
+msgid "The folder %s does not seems to be writable"
+msgstr "Zdá se, že do složky %s se nedá zapisovat"
+
+msgid "It seems impossible to switch to PASV mode"
+msgstr "Zdá se, že se nelze přepnout do režimu PASV"
+

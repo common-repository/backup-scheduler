@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-08-09T15:29:33+00:00\n"
+"Last-Translator: MahmoudOtri <home.space@hotmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: Syria\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About SL plugins..."
+msgstr "حول هذه الإضافة"
+
+msgid "About..."
+msgstr "حول"
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "Log options"
+msgstr "سجل الخيارات"
+
+msgid "What is the debug level:"
+msgstr "ما هو مستوى التصحيح"
+
+msgid "See the debug logs"
+msgstr "انظر سجلات التصحيح"
+
+msgid "1=log only the critical errors;"
+msgstr "1 = سجل الأخطاء الفادحة."
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "2 = سجل الأخطاء الفادحة والقياسية"
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "3 = سجل الأخطاء الفادحة والمعيارية والتحذيرات فقط"
+
+msgid "4=log information;"
+msgstr "4 = سجل المعلومات"
+
+msgid "5=log verbose;"
+msgstr "5 = سجل مفصل"
+
+msgid "Multisite Management"
+msgstr "إدارة الوسائط المتعددة"
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr "هل ترغب بأن تقوم الأداة بتعديل ترجمات الإضافات بالـ sub-blogs"
+

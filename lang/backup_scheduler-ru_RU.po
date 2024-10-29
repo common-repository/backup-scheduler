@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-11-23T15:51:32+00:00\n"
+"Last-Translator: GerinG <http://gering111.com/>\n"
+"Last-Translator: Slawka <http://eth0.org.ru>\n"
+"Last-Translator: Berdych <chernil.com.ua>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: Russia\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "This plugin enables scheduled backup of important part of your website : simple to use and efficient !"
+msgstr "Этот плагин выполняет резервное копирование важных частей вашего сайта: просто и эффективно"
+
+msgid "How often do you want to backup your website?"
+msgstr "Как часто вы хотите делать резервные копии вашего сайта?"
+
+msgid "Frequency (in days):"
+msgstr "Интервал (в днях):"
+
+msgid "Time of the backups:"
+msgstr "Время, когда создается бэкап"
+
+msgid "Keep the backup files for (in days):"
+msgstr "Время хранение копий (в днях):"
+
+msgid "What do you want to save?"
+msgstr "Что Вам нужно сохранить?"
+
+msgid "The plugins directory:"
+msgstr "Директория плагинов:"
+
+msgid "Check this option if you want to save all plugins that you have installed and that you use on this website."
+msgstr "Сохранить все установленные и используемые плагины."
+
+msgid "The themes directory:"
+msgstr "Директория тем:"
+
+msgid "Check this option if you want to save all themes that you have installed and that you use on this website."
+msgstr "Сохранить все установленные и используемые темы."
+
+msgid "Check this option if you want to save the images, the files, etc. that you have uploaded on your website to create your articles/posts/pages."
+msgstr "Сохранить все загруженные изображения и файлы."
+
+msgid "The upload directory:"
+msgstr "Папка загрузки"
+
+msgid "The SQL database:"
+msgstr "База данных SQL"
+
+msgid "Check this option if you want to save the text of your posts, your configurations, etc."
+msgstr "Выберите этот пункт, если вы хотите сохранять все ваши записи, файлы конфигурации и прочее"
+
+msgid "Do you want that the backup is sent by email?"
+msgstr "Вы хотите получать резервные копии на email?"
+
+msgid "If so, please enter your email:"
+msgstr "Если да, введите ваш emal:"
+
+msgid "What is the maximum size of allocated memory (in MB):"
+msgstr "Какой объём памяти может занимать плагин при работе?"
+
+msgid "Backups"
+msgstr "Резервные копии"
+
+msgid "Parameters"
+msgstr "Параметры"
+
+msgid "Give feedback"
+msgstr "Отправить отзыв"
+
+msgid "Other plugins"
+msgstr "Другие плагины"
+
+msgid "Date of the backup"
+msgstr "Дата резервного копирования"
+
+msgid "Part %s"
+msgstr "Часть %s"
+
+msgid "Delete these backup files"
+msgstr "Удалить эти резервные копии"
+
+msgid "An unknown error occured!"
+msgstr "Возникла неизвестная ошибка"
+
+msgid "A new backup has been generated!"
+msgstr "Новая резервная копия создана"
+
+msgid "Dear sirs,"
+msgstr "Уважаемые господа"
+
+msgid "Best regards,"
+msgstr "С уважением"
+
+msgid "If you want to be notify when the backup process is finished, please enter your email:"
+msgstr "Если вы хотите быть уведомлены об окончании процесса архивирования, оставьте свой e-mail:"
+
+msgid "Customize the name of the files?"
+msgstr "Настроить имена файлов?"
+
+msgid "Add this string to the name of the files:"
+msgstr "Добавьте эту строку к имени файлов:"
+
+msgid "The name of the files will be %s."
+msgstr "Имена файлов теперь будут такими %s."
+
+msgid "%s is the string of the present option. You may set this option to %s."
+msgstr "%s - текущее значение опции. Вы можете переписать его на следующее: %s"
+
+msgid "%s is a random string for security reasons."
+msgstr "%s - случайная строка для нужд секретности."
+
+msgid "%s is the extension (i.e. %s)."
+msgstr "%s - расширения файлов (т.к. %s)"
+
+msgid "All directories (the full Wordpress installation):"
+msgstr "Все директории (полная инсталляция Wordpress):"
+
+msgid "(i.e. %s)"
+msgstr "(например, %s)"
+
+msgid "Check this option if you want to save everything. Be careful, because the backup could be quite huge!"
+msgstr "Сохранить все. Но будьте осторожны, поскольку файл архива может быть огромным!"
+
+msgid "The upload directory for this blog:"
+msgstr "Директория загрузок блога:"
+
+msgid "(i.e. %s and %s)"
+msgstr "(например, %s и %s)"
+
+msgid "All upload directories (for this site and the sub-blogs):"
+msgstr "Все директории загрузок (этого сайта и мини-блогов):"
+
+msgid "Exclude these folders:"
+msgstr "Исключить эти папки"
+
+msgid "Send the backup files by email:"
+msgstr "Отправить бекап посредством электронной почты"
+
+msgid "Do you want to add a suffix to sent files:"
+msgstr "Вы хотите добавить суффикс в отправляемые файлы"
+
+msgid "Save the backup files on a FTP?"
+msgstr "Сохранить файлы бекапа на ФТП хранилище"
+
+msgid "FTP host:"
+msgstr "ФТП хост"
+
+msgid "FTP port:"
+msgstr "ФТП порт"
+
+msgid "Your FTP login:"
+msgstr "ФТП логин"
+
+msgid "Your FTP pass:"
+msgstr "ФТП пароль"
+
+msgid "Test"
+msgstr "Тест"
+
+msgid "Add a prefix to the created folder:"
+msgstr "Добавить префикс в созданную папку"
+
